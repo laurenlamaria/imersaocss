@@ -1,0 +1,41 @@
+body {
+  background-color: #d8e2e7;
+  background-size: auto 100vh; 
+  font-family: Arial;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #8fc5eb;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+
+a {
+  color: #501369;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.site-subtitle,
+.site-title {
+ text-align: center;
+}
+
+.site-title {
+  color: #ed1651;
+}
+
+.site-subtitle {
+  color: #5d7d8c;
+  font-style: italic;
+}
